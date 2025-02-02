@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(238, 106, 67);
+}
+
+.header_text {
+    font-family: "Gluten", serif; 
+    font-weight: 700; 
+    font-style: bold;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    color: rgb(158, 18, 44);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 100px;   
+}
+
+.gif_container img {
+    transform: scale(2); 
+}
+
+.calendar_container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    margin-top: 100px;
+}
+
+.calendar_btn {
+    font-family: "Lexend Giga", sans-serif; 
+    font-weight: 500; 
+    font-style: normal;
+    background-color: #fcecdf;
+    color: #f99d90;
+    padding: 25px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.calendar_btn:hover {
+    background-color: #b3574b;
+}
+

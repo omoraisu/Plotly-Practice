@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./yes_style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Happy Happy Happy</h1>
+            <h1 class="header_text">teng neng neng neng neng neng</h1>
+            <h1 class="header_text">Happy Happy Happy Happy Happy!!!</h1>
+        </div>
+        <div class="gif_container">
+            <img src="https://media.tenor.com/8tgG_KyJqqwAAAAi/happy-happy-happy-happy.gif" alt="Yippee Mingming">
+        </div>
+        <div class="calendar_container">
+            <button class="calendar_btn" onclick="addToCalendar()">Add to Calendar</button>
+        </div>
+    </div>
+
+    <script>
+        function addToCalendar() {
+            // Google Calendar event URL with pre-filled details
+            const eventUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+                "&text=Anniversary and Valentine's Date with Lalabb ❤️" + 
+                "&dates=20250214/20250215" + 
+                "&details=Fossil Finding, Picnics, Walking, Eating Food and U (hehe)" + 
+                "&location=Bohol, Philippines" + 
+                "&sf=true&output=xml";
+
+            window.open(eventUrl, "_blank");
+        }
+    </script>
+</body>
+</html>
